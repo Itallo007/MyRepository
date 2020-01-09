@@ -10,6 +10,6 @@ public class ProdutoDAO extends GenericDAO<Produto>{
         String query = "select p from Produto p where p.referencia = '" + referencia + "'";
          //Metodo createQuery permite que se crie comando sql manualmente.      
         return entityManager.createQuery(query).getResultList();
-        //fksdklfjksldjfklsd
+        //f333333333333333333333333
     }
 }
